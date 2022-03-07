@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Antojo | Cliente</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+</head>
+<body>
+
+    <img src="./Assets/img/logo_dulce.png" alt="Logo Dulce Antojo" width="150px">
+    <a href="./Pastelero.html"><button>Acceso pastelero</button></a>
+    <h1>¡Bienvenido a Dulce Antojo!</h1><br>
+
+    <p>Dejanos concentirte. En nuestra pastelería podrás encontrar variedad de sabores y experiencias, pero eso no es todo...<br>
+    Aquí podrás armar tu propio pastel y disfrutar lo que más te gusta.
+    </p><br>
+
+    <h2>Conoce nuestros sabores de biscocho y precio por kg</h2>
+    
+    <ul>
+        <li>Chocolate.........$120</li>
+        <li>Vainilla..........$120</li>
+        <li>Tres leches.......$150</li>
+      </ul>
+
+      <h2>Estas son nuestras decoraciones</h2>
+     
+      <table>
+        <tr>
+          <th>Decoración</th>
+          <th>Descripción</th>
+          <th>Costo</th>
+          <th>Imagen</th>
+        </tr>
+        <tr>
+          <td>Cubierta de Chocolate</td>
+          <td>Deliciosa ganage de chocolate belga</td>
+          <td>$100</td>
+          <td><img src="./Assets/img/cubierta-chocolate.jpeg" alt="cubierta de chocolate" width="90px"></td>
+        </tr>
+        <tr>
+            <td>Cubierta de limón</td>
+            <td>Inigualable sabor a limón 100% natural</td>
+            <td>$85</td>
+            <td><img src="./Assets/img/cubierta-limon.jpeg" alt="cubierta de limon" width="90px"></td>
+          </tr>
+      </table>
+
+
+      <h2>Por que nunca es suficiente... Topings </h2>
+      
+      <table>
+        <tr>
+          <th>Toping</th>
+          <th>Costo</th>
+          <th>Imagen</th>
+        </tr>
+        <tr>
+          <td>Fresas</td>
+          <td>$35</td>
+          <td><img src="./Assets/img/fresas.jpeg" alt="fresas" width="90px"></td>
+        </tr>
+        <tr>
+            <td>Moras</td>
+            <td>$75</td>
+            <td><img src="./Assets/img/moras.jpeg" alt="moras" width="90px"></td>
+          </tr>
+          <tr>
+            <td>Mix de frutas</td>
+            <td>$75</td>
+            <td><img src="./Assets/img/mix-frutas.jpeg" alt="muchas frutas" width="90px"></td>
+          </tr>
+      </table>
+
+      <hr>
+      
+      <h2>Llegó la hora de Ordenar </h2>
+      <p>Para poder brindarte el mejor servicio llena los campos correctamente.<br>
+        Podrás combinar el sabor de tu biscocho así como elegir distintos topings y cubiertas.
+        </p>
+
+        <form action="/accion.js" id="pedido" method="post"></form>
+
+        <label for="nombre"> Nombre completo</label>
+        <br>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+
+        <label for="telefono"> Teléfono</label>
+        <br>
+        <input type="tel" id="telefono" name="telefono" maxlength="10">
+        <br>
+
+        <label for="correo"> Correo Electrónico</label>
+        <br>
+        <input type="email" id="correo" name="correo">
+        <br>
+
+        <label for="descripción"> Descripción general de tú pedido</label>
+        <br>
+        <input type="text" id="descripción" name="descripción" placeholder="Pastel de chocolate con cubierta de limón y mix de frutas">
+        <br><br>
+
+        <h3>Selecciona el o los sabores del biscocho</h3>
+
+        <input type="checkbox" id="biscocho1" name="biscocho1" value="Chocolate">
+        <label for="biscocho1">Biscocho de Chocolate</label><br>
+
+        <input type="checkbox" id="biscocho2" name="biscocho2" value="Vainilla">
+        <label for="biscocho2">Biscocho de Vainilla</label><br>
+
+        <input type="checkbox" id="biscocho3" name="biscocho3" value="Tres leches">
+        <label for="biscocho3">Biscocho de Tres leches</label><br><br>
+
+        <h3>Selecciona tú cubierta</h3>
+
+        <label for="cubierta">Sabor de la cubierta</label>
+        <select id="cubierta" name="cubierta">
+            <option value="chocolate">Chocolate</option>
+            <option value="limon">Limón</option>
+        </select>
+
+        <h3>Selecciona los Topings</h3>
+
+        <input type="checkbox" id="toping1" name="toping1" value="Fresas">
+        <label for="toping1">Fresas</label><br>
+
+        <input type="checkbox" id="toping2" name="toping2" value="Moras">
+        <label for="toping2">Moras</label><br>
+
+        <input type="checkbox" id="toping3" name="toping3" value="Mix de frutas">
+        <label for="toping3">Mix de frutas</label><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset">
+
+        </form>
+
+        <br><br><br>
+    
+
+</body>
+<footer>
+    <hr>
+    <p>Nuestros Horarios de atención son:<br>
+        Lunes a viernes de 11:00 am a 6:00 pm<br><br>
+        Teléfono de contacto: 5544553322<br><br>
+        Dirección: Montecito #38, col. Napoles, Alc. Benito Juárez, Cidad de México
+        </p>
+  </footer>
+</html>
