@@ -1,0 +1,231 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+    background-color: rgba(248, 248, 255, 0.685);
+}
+
+.navbar-brand {
+    color:midnightblue !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+    padding: 35px;
+    background-color: rgba(248, 248, 255, 0.87);
+}
+
+.nav-link {
+    color:rgb(54, 54, 54);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn-hoax {
+    background-color: mediumblue;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.background-sec1 {
+    background-image: url(/Assets/enfermera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:rgb(17, 53, 82);
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+table {
+width: 100%;
+}
+
+.icon-yellow {
+    background-color: #ffff0050;
+    color: gold;
+    padding: 5px;
+}
+
+h4 {
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+h3 {
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+    font-weight: 700;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.icon-blue {
+    background-color:rgba(0, 0, 205, 0.116);
+    color:mediumblue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+}
+
+.encima {
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 80px;
+}
+
+#btn-azul {
+    background-color: mediumblue;
+    color:ghostwhite;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 20px grey;
+}
+
+.back-trans {
+    background-color: rgba(255, 255, 255, 0.932);
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+th {
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+td {
+    color: rgb(61, 61, 61);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-table {
+    width: 25%;
+}
+
+.espaciado {
+    
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.icon-blue-card {
+    background-color:rgba(0, 0, 205, 0.116);
+    color:mediumblue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+}
+
+.card {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px grey;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.figure-caption {
+    margin-top: 15px;
+}
+
+h2 {
+    color:midnightblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.p-acordeon {
+    color: gray;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.background-sec2 {
+    background-image: url(/Assets/preparativos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caja {
+    width: 220px;
+    height: 180px;
+    margin: 1px;
+}
+
+.card-contact {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(235, 235, 235);
+    padding: 10px 10px 10px 10px;
+    float: left;
+    margin: 10px;
+}
+
+.text-card-contact {
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+.btn-contacto {
+    background-color: rgb(245, 251, 255);
+    color: midnightblue;
+    font-weight: 500;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.azul-h4 {
+    color: midnightblue;
+    font-size: 19px;
+}
+
+.background-sec3 {
+    background-image: url(/Assets/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-padding {
+    padding-top: 50px;
+}
+
+.tit-header {
+    color: rgb(26, 51, 85);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.text-reset {
+    text-decoration: none;
+}
